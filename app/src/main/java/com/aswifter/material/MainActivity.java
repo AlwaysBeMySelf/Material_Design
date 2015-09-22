@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.i("MainActivity","GitTestThroughLocal");
+        Log.i("MainActivity","GitTestThroughWeb");
 
         setContentView(R.layout.activity_main);
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
